@@ -7,7 +7,9 @@ cd mrsa
 cat "/mnt/storage10/nbillows/mrsa/metadata/samples_download.txt" | xargs -I {} -P 1 sh -c 'bash "/mnt/storage10/nbillows/mrsa/scripts/run_new_sample.sh" {}'
 ```
 ## FASTQC and Trimming
+```
 
+```
 ## Kraken Filtering
 
 Let's filter our genomes using kraken. For this you will need to install the kraken2 client and kraken tools into a conda environment. Remember to change the paths and taxid in the script. 
